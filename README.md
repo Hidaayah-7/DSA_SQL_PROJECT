@@ -69,6 +69,8 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 ![dsa 3](https://github.com/user-attachments/assets/5098d35a-13ea-4057-8055-f1c65b18bad3)
 
+
+
 - Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 
 
@@ -77,6 +79,8 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 2. Provide dedicated support or premium services
 
 3. Customize product/services to meet their needs
+
+
 
  
 - KMS incurred the most shipping cost using which shipping method
