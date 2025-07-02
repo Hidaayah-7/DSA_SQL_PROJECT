@@ -49,7 +49,7 @@ At the initial stage of the Data Cleaning and Preparation, I performed the follo
 7. Which small business customer had the highest sales?
 8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
 9. Which consumer customer was the most profitable one?
-10. Which customer returned items, and what segment do they belong to?
+10. Which customer returned item, and what segment do they belong to?
 11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
 
 
@@ -175,7 +175,7 @@ SELECT TOP 1 CUSTOMER_SEGMENT, CUSTOMER_NAME, SUM(ORDER_QUANTITY) AS TOTAL_ORDER
 ![dsa 8](https://github.com/user-attachments/assets/c0c0497a-a3f7-40a4-a46a-afc868146140)
 
 
-- Which customer returned items, and what segment do they belong to?
+- Which customer returned item, and what segment do they belong to?
 
 
  ```
