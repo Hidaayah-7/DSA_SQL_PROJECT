@@ -72,11 +72,11 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 - Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 
 
-Price adjustment
+1. Price adjustment
 
-Provide dedicated support or premium services
+2. Provide dedicated support or premium services
 
-Customize product/services to meet their needs
+3. Customize product/services to meet their needs
 
  
 - KMS incurred the most shipping cost using which shipping method
