@@ -10,7 +10,7 @@ MY FINAL PROJECT AS A STUDENT AT DIGITAL SKILL AFRICA
 KMS headquartered in Lagos, specialises in office supplies and furniture. Its customer base includes individual consumers, small businesses (retail), and large corporate clients (wholesale) across Lagos, Nigeria
 
 ### Project Overview
-This project is designed to help KMS analyze the order data from 2009 to 2012, present key insights and findings that can guide service improvement, marketing strategies, and customer engagement to support decision-making.
+This project is designed to help KMS analyze the order data from 2009 to 2012, present key insights and findings that guides service improvement, marketing strategies, and customer engagement to support decision-making.
 
 ### Data Source:
 A CSV File gotten from Digital Skill Africa Warehouse
