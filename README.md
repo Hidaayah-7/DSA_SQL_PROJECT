@@ -37,7 +37,7 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
  ### Exploratory Data Analysis
    This Exploratory Data Analysis (EDA) report aims to provide a comprehensive details of the Analysis performed on the Order Data.
    
-#### Case Scenario I
+### Case Scenario I
 1. Which product category had the highest sales?
 2. What are the Top 3 and Bottom 3 regions in terms of sales?
 3. What were the total sales of appliances in Ontario?
