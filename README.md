@@ -58,7 +58,8 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 
 ``` SELECT TOP 3 Product_category, sales
- from [KMS Sql Case Study] ```
+ from [KMS Sql Case Study];
+ ```
 
 
  ![dsa 1](https://github.com/user-attachments/assets/72680517-c9ac-492f-a704-ed443cd03630)
