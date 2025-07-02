@@ -59,7 +59,8 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 ```
  SELECT TOP 3 Product_category, sales
- from [KMS Sql Case Study];
+ from [KMS Sql Case Study]
+
  ```
 
 
@@ -74,7 +75,7 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
  union all
  SELECT TOP 3 Region,sales
  from [KMS Sql Case Study]
- order by sales asc;
+ order by sales asc
 
  ```
 
@@ -82,6 +83,14 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 - What were the total sales of appliances in Ontario?
 
+
+```
+ select Product_Sub_Category, region,  sum(Sales) as total_sales
+ from [KMS Sql Case Study]
+ where region = 'Ontario' and Product_Sub_Category = 'appliances'
+  group by Product_Sub_Category, Region
+
+ ```
 
 ![dsa 3](https://github.com/user-attachments/assets/5098d35a-13ea-4057-8055-f1c65b18bad3)
 
@@ -97,35 +106,81 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 3. Customize product/services to meet their needs
 
 
-
  
 - KMS incurred the most shipping cost using which shipping method
 
 
+```
+SELECT TOP 5 Shipping_Cost, Ship_Mode
+ from [KMS Sql Case Study]
+ order by shipping_cost desc
+
+ ```
+
 ![dsa 4](https://github.com/user-attachments/assets/abd6ce26-7acb-4ce8-82d6-b6de0c861578)
+
 
 - Who are the most valuable customers, and what products or services do they typically purchase?
 
 
+```
+SELECT TOP 10 CUSTOMER_NAME, PRODUCT_NAME, PRODUCT_SUB_CATEGORY, SUM(SALES) AS TOTAL_SALES
+ FROM [KMS SQL CASE STUDY]
+ GROUP BY SALES, CUSTOMER_NAME, PRODUCT_NAME, PRODUCT_SUB_CATEGORY
+ ORDER BY TOTAL_SALES DESC
+
+ ```
+
 ![dsa 5](https://github.com/user-attachments/assets/bff6692d-6d1e-4d31-b7ae-99fed5b13d5f)
+
 
 - Which small business customer had the highest sales?
 
- 
+
+```
+SELECT TOP 1 CUSTOMER_NAME, CUSTOMER_SEGMENT, SUM(SALES) AS TOTAL_SALES
+  FROM [KMS SQL CASE STUDY]
+  WHERE CUSTOMER_SEGMENT = 'SMALL BUSINESS' 
+  GROUP BY CUSTOMER_SEGMENT, CUSTOMER_NAME
+ ```
+
   ![dsa 6](https://github.com/user-attachments/assets/6f6928e0-9d03-4bae-8920-ebe9833d65e7)
+
 
 -  Which Corporate Customer placed the most number of orders in 2009 – 2012?
 
- 
+
+ ```
+SELECT TOP 1 CUSTOMER_NAME, CUSTOMER_SEGMENT, SUM(ORDER_QUANTITY) AS TOTAL_ORDERS, SUM(SALES) AS TOTAL_SALES
+  FROM [KMS SQL CASE STUDY]
+  WHERE CUSTOMER_SEGMENT = 'CORPORATE' AND YEAR(ORDER_DATE)  BETWEEN 2009 AND  2012
+  GROUP BY CUSTOMER_SEGMENT, CUSTOMER_NAME
+  ORDER BY TOTAL_ORDERS DESC
+ ```
+
  ![dsa 7](https://github.com/user-attachments/assets/29859277-66d8-40db-a7e9-d73f41b89371)
+
  
 - Which consumer customer was the most profitable one?
 
+ ```
+SELECT TOP 1 CUSTOMER_SEGMENT, CUSTOMER_NAME, SUM(ORDER_QUANTITY) AS TOTAL_ORDERS, SUM(SALES) AS TOTAL_SALES, SUM(PROFIT) AS TOTAL_PROFIT
+  FROM [KMS SQL CASE STUDY]
+  GROUP BY CUSTOMER_SEGMENT, CUSTOMER_NAME
+  ORDER BY TOTAL_PROFIT DESC
+ ```
 
 ![dsa 8](https://github.com/user-attachments/assets/c0c0497a-a3f7-40a4-a46a-afc868146140)
 
+
 - Which customer returned items, and what segment do they belong to?
 
+ ```
+SELECT  CUSTOMER_NAME,ORDER_ID, CUSTOMER_SEGMENT, PROFIT
+  FROM [KMS SQL CASE STUDY]
+  WHERE PROFIT < 0
+  ORDER BY PROFIT ASC
+ ```
 
  ![dsa 9](https://github.com/user-attachments/assets/b74e0e38-a022-480a-a0bd-bd4d05277ab2)
 
