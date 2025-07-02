@@ -17,45 +17,43 @@ A CSV File gotten from Digital Skill Africa Warehouse
 - <a href="https://github.com/Hidaayah-7/DSA_SQL_PROJECT/blob/main/KMS%20Sql%20Case%20Study.csv//">Dataset</a>
 
 ### Tool Used
-Ms Excel 
+My SQL server 
 - for Data Collection 
 - for Data Cleaning and Preparation
 - Analysis
-- Report Creation (Dashboard)
+  
 
 ### Data Cleaning and Preparation
 At the initial stage of the Data Cleaning and Preparation, i performed the following actions;
-1. Data Loading and Inspection into Ms Excel Power Query
-2. Duplicate removal
-3. Handling Missing Data
-4. Changing Data Type
-5. Spliting and Merging of Columns
-6. Deleting Unneccesary Columns
 
- ### Exploratory Data Analysis
-   This Exploratory Data Analysis (EDA) report aims to provide an in-depth examination of The Amazon product review Dataset to understand sales trend, customer engagement and characteristic of the data
-   
-#### Key Performance Indicators (KPIs)
-
-Performance based on key metrics:
--	Total Customer: The total count of applicants is 1194
--	Total Categories: The total categories is 210
--	Average Rating: The average rating is 4.10
--	Total Price:  The total price is $7.98 Million  
--	Total Discount: The Total discount is $4.58 Million 
--	Total Revenue: the total revenue of $121 Billion
+1. Data Loading and Inspection into My SQL server
+2. Ensure Appropriate Data Type
+3. Allowed Null where Necessary
+4. Removed Duplicate
 
 ### Analysis:  <a href="https://github.com/Hidaayah-7/DSA_SQL_PROJECT/blob/main/dsa%20query.sql">[View Here]</a>
 
 
+ ### Exploratory Data Analysis
+   This Exploratory Data Analysis (EDA) report aims to provide a comprehensive details of the Analysis performed.
+   
+#### Case Scenario I
+1. Which product category had the highest sales?
+2. What are the Top 3 and Bottom 3 regions in terms of sales?
+3. What were the total sales of appliances in Ontario?
+4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+5. KMS incurred the most shipping cost using which shipping method
 
-### Dashboard
 
-![AMAZON](https://github.com/user-attachments/assets/f2c1ece1-4d1c-4f9a-88d5-b15c6b2c06f0)
+### Queries
+ Which product category had the highest sales?
+
+ 
 
 
 
-![ANAZON 2](https://github.com/user-attachments/assets/832348d0-36e3-4abd-8a11-38a23d6e0e69)
+
+
 
 
 
