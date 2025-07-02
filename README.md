@@ -57,7 +57,8 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 -  Which product category had the highest sales?
 
 
-``` SELECT TOP 3 Product_category, sales
+```
+ SELECT TOP 3 Product_category, sales
  from [KMS Sql Case Study];
  ```
 
