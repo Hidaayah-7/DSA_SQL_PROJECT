@@ -24,7 +24,7 @@ My SQL server
   
 
 ### Data Cleaning and Preparation
-At the initial stage of the Data Cleaning and Preparation, i performed the following actions;
+At the initial stage of the Data Cleaning and Preparation, I performed the following actions;
 
 1. Data Loading and Inspection into My SQL server
 2. Ensure Appropriate Data Type
