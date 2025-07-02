@@ -44,30 +44,75 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 5. KMS incurred the most shipping cost using which shipping method
 
+### Case Scenario II
+6. Who are the most valuable customers, and what products or services do they typically purchase?
+7. Which small business customer had the highest sales?
+8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
+9. Which consumer customer was the most profitable one?
+10. Which customer returned items, and what segment do they belong to?
+11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
+
 
 ### Queries
- Which product category had the highest sales?
+-  Which product category had the highest sales?
+
 
  ![dsa 1](https://github.com/user-attachments/assets/72680517-c9ac-492f-a704-ed443cd03630)
 
+- What are the Top 3 and Bottom 3 regions in terms of sales?
+
+
 ![dsa 2](https://github.com/user-attachments/assets/edb9a8dd-425a-40f7-8ce3-71b104d90313)
+
+- What were the total sales of appliances in Ontario?
+
 
 ![dsa 3](https://github.com/user-attachments/assets/5098d35a-13ea-4057-8055-f1c65b18bad3)
 
+- Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+
+
+•	Price adjustment
+•	Provide dedicated support or premium services
+•	Customize product/services to meet their needs
+
+ 
+- KMS incurred the most shipping cost using which shipping method
+
+
 ![dsa 4](https://github.com/user-attachments/assets/abd6ce26-7acb-4ce8-82d6-b6de0c861578)
+
+- Who are the most valuable customers, and what products or services do they typically purchase?
+
 
 ![dsa 5](https://github.com/user-attachments/assets/bff6692d-6d1e-4d31-b7ae-99fed5b13d5f)
 
+- Which small business customer had the highest sales?
 
-![dsa 6](https://github.com/user-attachments/assets/6f6928e0-9d03-4bae-8920-ebe9833d65e7)
+ 
+  ![dsa 6](https://github.com/user-attachments/assets/6f6928e0-9d03-4bae-8920-ebe9833d65e7)
 
+-  Which Corporate Customer placed the most number of orders in 2009 – 2012?
 
-![dsa 7](https://github.com/user-attachments/assets/29859277-66d8-40db-a7e9-d73f41b89371)
+ 
+ ![dsa 7](https://github.com/user-attachments/assets/29859277-66d8-40db-a7e9-d73f41b89371)
+ 
+- Which consumer customer was the most profitable one?
+
 
 ![dsa 8](https://github.com/user-attachments/assets/c0c0497a-a3f7-40a4-a46a-afc868146140)
 
+- Which customer returned items, and what segment do they belong to?
+
+
  ![dsa 9](https://github.com/user-attachments/assets/b74e0e38-a022-480a-a0bd-bd4d05277ab2)
 
+ 
+- If the delivery truck is the most economical but the slowest shipping method and
+Express Air is the fastest but the most expensive one, do you think the company
+appropriately spent shipping costs based on the Order Priority? Explain your answer
+
+Yes, they spent shipping costs based on the Order Priority but majority of the item were returned.
 
 
 
@@ -77,78 +122,20 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 
 
-### CATEGORY VIEW INSIGHTS
-
-- Top Revenue Generating Categories
-
- Smartphones $39M, Smart Televisions $26M and Smart Watches $13M
-
- These are the categories that dominates revenue, accounting for the bulk of total sales.
 
 
-- Average Discount % by Category
-
- Highest 0.9 (Computers & Accessories, Electronics) and Lowest 0.82 (Shower & Wall Mounts)
-
- High discounts are clustered around tech categories, driving volume sales.
 
 
-- Product Category with Highest Discount
-
- Wearable Tech 0.70 and Smartwatches 0.59
-
- Wearable tech has the highest discount among all, but it doesn’t top revenue or reviews.
 
 
-### PRODUCT VIEW INSIGHTS
-
-- Top Products by Average Rating (5.0 stars)
-
- Syncwire LTG to USB Cable, REDTECH USB-C to HDMI Cable, and Amazon Basics USB Extension
-
- Simple, affordable tech accessories are hitting perfect review scores
 
 
-- Product with Discount > 50%
-
- VU 138 cm 4K TV $30K and ECOVACS DEEBOT Vacuum Cleaner $28K
-
- Premium electronics and appliances are being sold at steep discounts.
 
 
-- Rating by Price Bucket
-
- $1,001–$5,000 bucketHighest product count (575)
-
- Most products fall into this mid-price range.
 
 
-### METRICS OBSERVATION
-
-Reviews vs. Revenue: Products with the most reviews are not always the top revenue drivers.
-
-Smartwatches have high reviews (76) and discount (0.59) but generate lower revenue ($13M) than Smartphones.
 
 
- #### Recommendation:
 
-Amazon should Considers improving the perceived value or functionality of Smartwatches to increase conversion from reviews to revenue.
-
-Analyze if lower ASP (average selling price) is holding back revenue growth.
-
-
-### RECOMMENDATIONS
-
-I recommend that Amazon should:
-
-- Revisit discounting strategy for top performers. Don’t over-discount items that already perform well.
-
-- Consider reducing discount rates for high-performing products with inelastic demand.
-
-- Use top-rated, low-cost products as “customer delight” tools—possibly include them as freebies or loyalty rewards.
-
-- Prioritize Smartphones, Smart TVs, and Smartwatches for ad spend, and target upsell to accessories.
-
-- Highlight 5-star rated products with lower visibility in key homepage placements to boost organic sales.
 
 - Understand customer return rates, repeat purchase behavior, and profit margin by category for deeper insights.
