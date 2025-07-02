@@ -48,7 +48,27 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 ### Queries
  Which product category had the highest sales?
 
- 
+ ![dsa 1](https://github.com/user-attachments/assets/72680517-c9ac-492f-a704-ed443cd03630)
+
+![dsa 2](https://github.com/user-attachments/assets/edb9a8dd-425a-40f7-8ce3-71b104d90313)
+
+![dsa 3](https://github.com/user-attachments/assets/5098d35a-13ea-4057-8055-f1c65b18bad3)
+
+![dsa 4](https://github.com/user-attachments/assets/abd6ce26-7acb-4ce8-82d6-b6de0c861578)
+
+![dsa 5](https://github.com/user-attachments/assets/bff6692d-6d1e-4d31-b7ae-99fed5b13d5f)
+
+
+![dsa 6](https://github.com/user-attachments/assets/6f6928e0-9d03-4bae-8920-ebe9833d65e7)
+
+
+![dsa 7](https://github.com/user-attachments/assets/29859277-66d8-40db-a7e9-d73f41b89371)
+
+![dsa 8](https://github.com/user-attachments/assets/c0c0497a-a3f7-40a4-a46a-afc868146140)
+
+ ![dsa 9](https://github.com/user-attachments/assets/b74e0e38-a022-480a-a0bd-bd4d05277ab2)
+
+
 
 
 
