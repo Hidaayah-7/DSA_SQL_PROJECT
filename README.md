@@ -57,6 +57,10 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 -  Which product category had the highest sales?
 
 
+``` SELECT TOP 3 Product_category, sales
+ from [KMS Sql Case Study] ```
+
+
  ![dsa 1](https://github.com/user-attachments/assets/72680517-c9ac-492f-a704-ed443cd03630)
 
 - What are the Top 3 and Bottom 3 regions in terms of sales?
