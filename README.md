@@ -73,7 +73,9 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
 
 Price adjustment
+
 Provide dedicated support or premium services
+
 Customize product/services to meet their needs
 
  
