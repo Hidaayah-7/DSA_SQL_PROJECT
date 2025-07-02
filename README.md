@@ -65,8 +65,18 @@ At the initial stage of the Data Cleaning and Preparation, i performed the follo
 
  ![dsa 1](https://github.com/user-attachments/assets/72680517-c9ac-492f-a704-ed443cd03630)
 
+
 - What are the Top 3 and Bottom 3 regions in terms of sales?
 
+```
+ SELECT TOP 3 Region,sales
+ from [KMS Sql Case Study]
+ union all
+ SELECT TOP 3 Region,sales
+ from [KMS Sql Case Study]
+ order by sales asc;
+
+ ```
 
 ![dsa 2](https://github.com/user-attachments/assets/edb9a8dd-425a-40f7-8ce3-71b104d90313)
 
