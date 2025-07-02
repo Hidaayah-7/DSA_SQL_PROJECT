@@ -144,4 +144,5 @@ Yes, they spent shipping costs based on the Order Priority but majority of the i
 
 
 
-- Understand customer return rates, repeat purchase behavior, and profit margin by category for deeper insights.
+
+
