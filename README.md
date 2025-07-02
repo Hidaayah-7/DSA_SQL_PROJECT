@@ -163,6 +163,7 @@ SELECT TOP 1 CUSTOMER_NAME, CUSTOMER_SEGMENT, SUM(ORDER_QUANTITY) AS TOTAL_ORDER
  
 - Which consumer customer was the most profitable one?
 
+
  ```
 SELECT TOP 1 CUSTOMER_SEGMENT, CUSTOMER_NAME, SUM(ORDER_QUANTITY) AS TOTAL_ORDERS, SUM(SALES) AS TOTAL_SALES, SUM(PROFIT) AS TOTAL_PROFIT
   FROM [KMS SQL CASE STUDY]
@@ -170,10 +171,12 @@ SELECT TOP 1 CUSTOMER_SEGMENT, CUSTOMER_NAME, SUM(ORDER_QUANTITY) AS TOTAL_ORDER
   ORDER BY TOTAL_PROFIT DESC
  ```
 
+
 ![dsa 8](https://github.com/user-attachments/assets/c0c0497a-a3f7-40a4-a46a-afc868146140)
 
 
 - Which customer returned items, and what segment do they belong to?
+
 
  ```
 SELECT  CUSTOMER_NAME,ORDER_ID, CUSTOMER_SEGMENT, PROFIT
@@ -181,6 +184,7 @@ SELECT  CUSTOMER_NAME,ORDER_ID, CUSTOMER_SEGMENT, PROFIT
   WHERE PROFIT < 0
   ORDER BY PROFIT ASC
  ```
+
 
  ![dsa 9](https://github.com/user-attachments/assets/b74e0e38-a022-480a-a0bd-bd4d05277ab2)
 
